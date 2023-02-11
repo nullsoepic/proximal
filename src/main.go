@@ -1,3 +1,9 @@
+/*
+ * This file is part of the Proximal project (https://github.com/nullsoepic/proximal/).
+ *
+ * This source code is subject to the terms of the Nebula Software License 1.0
+ */
+
 package main
 
 import (
