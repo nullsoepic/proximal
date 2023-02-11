@@ -86,6 +86,7 @@
 > `-url https://google.com` - *Checks proxies with specified url* - **Default: `https://example.com`** <br>
 > `-saveall` - *Save all scraped proxies to a file* - **Default: `false`** <br>
 > `-sa-file` - *Specifies output file for saving scraped proxies* - **Default: `scraped.txt`** <br>
+> `-timeout` - *Specifies request timeout* - **Default `15`** <br>
 
 ## Support
 
