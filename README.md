@@ -18,10 +18,11 @@
 <div align="center">
 <br />
 
-[![Project license](https://img.shields.io/github/license/nullsoepic/proximal.svg?style=for-the-badge)](LICENSE)
-[![code with coffee by nullsoepic](https://img.shields.io/badge/made%20by-nullsoepic-ff1414.svg?style=for-the-badge)](https://github.com/nullsoepic)
-[![code with coffee by nullsoepic](https://img.shields.io/badge/powered%20by-GoLang-10D7EC.svg?style=for-the-badge)](https://github.com/nullsoepic)
-[![code with coffee by nullsoepic](https://img.shields.io/badge/runs%20on-Caffeine☕-463717.svg?style=for-the-badge)](https://github.com/nullsoepic)
+[![Project license](https://img.shields.io/badge/License-Nebula-380081.svg?style=for-the-badge)](LICENSE)
+[![Made by nullsoepic](https://img.shields.io/badge/made%20by-nullsoepic-ff1414.svg?style=for-the-badge)](https://github.com/nullsoepic)
+[![Powered by GoLang](https://img.shields.io/badge/powered%20by-GoLang-10D7EC.svg?style=for-the-badge)](https://github.com/nullsoepic)
+[![Runs on Caffeine](https://img.shields.io/badge/runs%20on-Caffeine☕-463717.svg?style=for-the-badge)](https://github.com/nullsoepic)
+<br>
 <a href="https://ko-fi.com/vibing"><img src="https://storage.ko-fi.com/cdn/brandasset/kofi_button_blue.png" width="40%" height="40%"></a>
 
 
