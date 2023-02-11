@@ -22,6 +22,8 @@
 [![code with coffee by nullsoepic](https://img.shields.io/badge/made%20by-nullsoepic-ff1414.svg?style=for-the-badge)](https://github.com/nullsoepic)
 [![code with coffee by nullsoepic](https://img.shields.io/badge/powered%20by-GoLang-10D7EC.svg?style=for-the-badge)](https://github.com/nullsoepic)
 [![code with coffee by nullsoepic](https://img.shields.io/badge/runs%20on-Caffeine☕-463717.svg?style=for-the-badge)](https://github.com/nullsoepic)
+<a href="https://ko-fi.com/vibing"><img src="https://storage.ko-fi.com/cdn/brandasset/kofi_button_blue.png" width="40%" height="40%"></a>
+
 
 </div>
 
