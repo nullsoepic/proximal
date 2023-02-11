@@ -19,7 +19,6 @@ import (
 	"regexp"
 )
 
-// Wacky shit dont ask why
 var (
 	prlist    []string
 	prlistMu  sync.Mutex
@@ -30,7 +29,6 @@ var (
 	goodls    []string
 )
 
-// Go routines are very fucking confusing
 func makeRequestWithProxy(testurl string, proxy string, resultChan chan string, timeout float64) {
 	client := &http.Client{
 		Transport: &http.Transport{
@@ -66,7 +64,6 @@ func makeRequestWithProxy(testurl string, proxy string, resultChan chan string, 
 
 }
 
-// Scuffed shit, thank you chatgpt
 func makeRequest(url string) (string, error) {
 	resp, err := http.Get(url)
 	if err != nil {
