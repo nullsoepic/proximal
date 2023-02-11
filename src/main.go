@@ -19,6 +19,7 @@ import (
 	"regexp"
 )
 
+
 var (
 	prlist    []string
 	prlistMu  sync.Mutex
@@ -29,6 +30,8 @@ var (
 	goodls    []string
 )
 
+// Connects to a specified website through a proxy with a set timeout.
+// Fancy prints to make it easy to see what's happening.
 func makeRequestWithProxy(testurl string, proxy string, resultChan chan string, timeout float64) {
 	client := &http.Client{
 		Transport: &http.Transport{
@@ -64,6 +67,7 @@ func makeRequestWithProxy(testurl string, proxy string, resultChan chan string, 
 
 }
 
+// Simple function to return the body from a page
 func makeRequest(url string) (string, error) {
 	resp, err := http.Get(url)
 	if err != nil {
@@ -79,6 +83,9 @@ func makeRequest(url string) (string, error) {
 	return string(body), nil
 }
 
+
+// Scrapes proxies from a bunch of websites
+// Saves them to an array
 func fetchProxies() []string {
 	rawproxies := []string{
 		"https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
@@ -126,6 +133,8 @@ func fetchProxies() []string {
 	return prlist
 }
 
+// Basically just simple file writing
+// Writes an array to a file by joining it with a newline
 func writeProxies(proxies []string, filen string) error {
 	err := ioutil.WriteFile(filen, []byte(strings.Join(proxies, "\n")), 0644)
 	if err != nil {
